@@ -1,6 +1,6 @@
 import CenterWithGrid from "./components/center-with-grid/Center";
 import Center from "./components/center/Center";
-import "./page.css";
+import style from "./page.module.css";
 
 const componentMapParams = new Map<string, () => JSX.Element>([
   ["center", Center],
@@ -13,7 +13,7 @@ export default function GridLayouts({ params }: { params: { type: string } }) {
   const Component = componentMapParams.get(params.type) || FallbackComponent;
   return (
     <main>
-      <div className="wrapper">
+      <div className={style.wrapper}>
         <Component />
       </div>
     </main>

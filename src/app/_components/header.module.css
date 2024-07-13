@@ -1,12 +1,16 @@
 .header {
   padding: 1rem 0.5rem;
   color: #fff;
-  box-shadow: 0 2px 4px #fff;
+  box-shadow: 0 2px 7px #212121;
   display: flex;
   gap: 1rem;
   align-items: center;
+  overflow-x: auto;
 }
 .navbar ul {
   list-style: none;
   display: flex;
+  align-items: center;
+  gap: 1rem;
+  @apply text-white;
 }

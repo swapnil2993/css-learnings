@@ -2,24 +2,31 @@ import style from "./header.module.css";
 
 const links = [
   {
-    title: "Playing with images",
-    url: "/",
+    title: "Images",
+    url: "/images",
   },
   {
-    title: "Common Layouts",
-    url: "/grid",
+    title: "Grid Common Layouts",
+    url: "/",
   },
 ];
 
 const Header = () => {
   return (
     <header className={style.header}>
-      <h1 className="text-white text-xl">Grid Examples</h1>
+      <h1 className="text-white text-xl font-bold">
+        <span>
+          <span className="text-amber-100 uppercase">FE</span>&nbsp;
+          <span className="tracking-widest">
+            <i>Snippets</i>
+          </span>
+        </span>
+      </h1>
       <nav className={style.navbar}>
-        <ul className="flex list-type-none">
+        <ul>
           {links.map((link) => (
             <li key={link.url} className="mr-4">
-              <a className="text-white" href={link.url}>
+              <a className="" href={link.url}>
                 {link.title}
               </a>
             </li>

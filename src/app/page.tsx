@@ -1,14 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 
-import FilterHover from "./_components/images/FilterHover";
-import ImageOutlineInset from "./_components/images/ImageOutlineInset";
-import "./page.css";
-
-export default function Images() {
+export default function GridLayouts() {
   return (
     <main>
-      <ImageOutlineInset />
-      <FilterHover />
+      <h1>Grid Layout</h1>
     </main>
   );
 }

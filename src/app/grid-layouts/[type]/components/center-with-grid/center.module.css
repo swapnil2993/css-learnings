@@ -1,7 +1,9 @@
 .container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  /* justify-content: center;
   align-items: center;
+  height: 100%; */
+  place-items: center;
   height: 100%;
 }
 

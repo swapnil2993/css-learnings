@@ -1,7 +1,7 @@
 import style from "./center.module.css";
 const Center = () => {
   return (
-    <div className={style.wrapper}>
+    <>
       <p>Centering with Flexbox</p>
       <div className={style.container}>
         <div className={style.element} contentEditable>
@@ -11,7 +11,7 @@ const Center = () => {
           the circle at the center of the page.
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

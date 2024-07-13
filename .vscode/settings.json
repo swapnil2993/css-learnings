@@ -1,0 +1,6 @@
+// <project-root>/.vscode/settings.json
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}

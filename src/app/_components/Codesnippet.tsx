@@ -8,6 +8,8 @@ hljs.registerLanguage("javascript", javascript);
 hljs.registerLanguage("typescript", typescript);
 hljs.registerLanguage("css", css);
 
+import styles from "./code-snippet.module.css";
+
 import "highlight.js/styles/monokai.css";
 
 const CodeSnippet = ({ content }: { content: string }) => {
@@ -20,10 +22,8 @@ const CodeSnippet = ({ content }: { content: string }) => {
   }, []);
 
   return (
-    <pre className="max-w-fit max-h-96 overflow-auto">
-      <code className={"css"} ref={codeRef}>
-        {content}
-      </code>
+    <pre className={styles.snippet}>
+      <code ref={codeRef}>{content}</code>
     </pre>
   );
 };

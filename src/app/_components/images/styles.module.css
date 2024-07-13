@@ -1,10 +1,9 @@
 .grid {
   display: grid;
-  margin: 1rem;
   gap: 1rem;
   position: relative;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  img {
+  .img {
     width: 100%;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -12,15 +11,6 @@
   }
 }
 
-.filter {
-  filter: grayscale(1) brightness(40%);
-  &:hover {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    filter: grayscale(0) brightness(100%);
-    transition: filter 0.5s ease-in-out, clip-path 0.5s ease-in-out;
-    cursor: pointer;
-  }
-}
 .outline-with-inset {
   position: relative;
   width: 100%;
@@ -34,5 +24,21 @@
     background: transparent;
     transform: scale(0.85);
     outline: 5px solid #ffffff;
+  }
+}
+
+.filter {
+  filter: grayscale(1) brightness(40%);
+  &:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    filter: grayscale(0) brightness(100%);
+    transition: filter 0.5s ease-in-out, clip-path 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .img {
+    width: 100%;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: relative;
   }
 }

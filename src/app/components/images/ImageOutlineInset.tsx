@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Codesnippet from "../Codesnippet";
+import Codesnippet from "../code-snippet/Codesnippet";
 import styles from "./styles.module.css";
 const ImageOutlineInset = () => {
   return (

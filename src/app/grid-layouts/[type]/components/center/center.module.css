@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  height: calc(100vh - 100px);
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.element {
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  border: 2px dotted grey;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  width: clamp(400px, 30%, 600px);
+}

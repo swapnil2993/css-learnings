@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import HighLightCode from "../Codesnippet";
+import Codesnippet from "../Codesnippet";
 import styles from "./styles.module.css";
 
 const FilterHover = () => {
@@ -16,7 +16,7 @@ const FilterHover = () => {
           />
         </div>
         <div>
-          <HighLightCode
+          <Codesnippet
             content={`.filter {
         filter: grayscale(1) brightness(40%);
           &:hover {

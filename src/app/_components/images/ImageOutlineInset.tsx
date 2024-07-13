@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import HighLightCode from "../Codesnippet";
+import Codesnippet from "../Codesnippet";
 import styles from "./styles.module.css";
 const ImageOutlineInset = () => {
   return (
@@ -47,7 +47,7 @@ const ImageOutlineInset = () => {
         <article>
           <h3>Key points</h3>
           <div className="flex gap-8 flex-wrap">
-            <HighLightCode
+            <Codesnippet
               content={`.outline-with-inset {
         position: relative;
         width: 100%;

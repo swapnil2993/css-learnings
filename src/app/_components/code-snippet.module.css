@@ -1,4 +1,4 @@
 .snippet {
   @apply max-h-96 overflow-auto;
-  @apply max-w-96 overflow-auto;
+  width: clamp(380px, 30%, 500px);
 }

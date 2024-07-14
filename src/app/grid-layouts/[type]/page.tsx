@@ -1,10 +1,12 @@
 import CenterWithGrid from "./components/center-with-grid/Center";
 import Center from "./components/center/Center";
+import Standard from "./components/standard/Standard";
 import style from "./page.module.css";
 
 const componentMapParams = new Map<string, () => JSX.Element>([
   ["center", Center],
   ["center-grid", CenterWithGrid],
+  ["standard", Standard],
 ]);
 
 const FallbackComponent = () => <div>Component not found</div>;

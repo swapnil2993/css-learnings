@@ -18,7 +18,7 @@ const Header = () => {
         <span>
           <span className="text-amber-100 uppercase">FE</span>&nbsp;
           <span className="tracking-widest">
-            <i>Snippets</i>
+            <i>Learnings</i>
           </span>
         </span>
       </h1>

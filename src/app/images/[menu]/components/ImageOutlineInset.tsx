@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Codesnippet from "../code-snippet/Codesnippet";
+import Codesnippet from "../../../components/code-snippet/Codesnippet";
 import styles from "./styles.module.css";
 const ImageOutlineInset = () => {
   return (
@@ -38,6 +38,20 @@ const ImageOutlineInset = () => {
           <div className={styles["outline-with-inset"]}>
             <img
               src="https://picsum.photos/id/25/300"
+              className={styles.img}
+              alt="photo"
+            />
+          </div>
+          <div className={styles["outline-with-inset"]}>
+            <img
+              src="https://picsum.photos/id/266/300"
+              className={styles.img}
+              alt="photo"
+            />
+          </div>
+          <div className={styles["outline-with-inset"]}>
+            <img
+              src="https://picsum.photos/id/133/300"
               className={styles.img}
               alt="photo"
             />

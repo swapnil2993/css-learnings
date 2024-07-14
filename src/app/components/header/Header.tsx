@@ -3,7 +3,7 @@ import style from "./header.module.css";
 const links = [
   {
     title: "Images",
-    url: "/images",
+    url: "/images/common",
   },
   {
     title: "Grid Common Layouts",

@@ -7,6 +7,11 @@ const nextConfig = {
         destination: "/grid-layouts/center",
         permanent: true,
       },
+      {
+        source: "/images",
+        destination: "/images/common",
+        permanent: true,
+      },
     ];
   },
 };

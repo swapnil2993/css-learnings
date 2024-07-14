@@ -1,11 +1,11 @@
 section {
-  background-color: #101010;
+  /* background-color: #101010;
   padding: 1rem;
-  box-shadow: 2px 2px 2px 0px rgba(242, 240, 240, 0.3);
+  box-shadow: 2px 2px 2px 0px rgba(242, 240, 240, 0.3); */
   h2 {
     @apply dark:text-white mb-4 text-lg tracking-tight font-bold text-gray-900;
   }
-
+  padding: 1rem 1rem 2rem 1rem;
   border-bottom: 0.5px solid #3a3a3a;
 
   article {

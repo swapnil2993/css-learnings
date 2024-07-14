@@ -1,8 +1,5 @@
 # FE learnings
 
-[CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-[Center a div](https://www.sitepoint.com/css-grid-center-element/)
-
 # TODO
 
 - [] - Components
@@ -22,3 +19,9 @@
 - [] - Tick tack toe
 - [] - Basic animations
 - [] - Basic ecommerce app layout
+
+# Resources
+
+- Grid
+  - [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+  - [Center a div](https://www.sitepoint.com/css-grid-center-element/)

@@ -1,6 +1,6 @@
 import Common from "./components/Common";
 import Gallery from "./components/Gallery";
-import LazyLoad from "./components/LazyLoad";
+import LazyLoad from "./components/BlurryLoadingImage";
 
 import "./page.css";
 

@@ -1,0 +1,6 @@
+.wrapper-max-width-char {
+  max-width: 80ch;
+  margin: auto;
+  height: 100%;
+  padding: 1rem;
+}

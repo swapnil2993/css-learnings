@@ -3,13 +3,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/",
+        source: "/grid-layouts",
         destination: "/grid-layouts/center",
-        permanent: true,
-      },
-      {
-        source: "/images",
-        destination: "/images/common",
         permanent: true,
       },
     ];

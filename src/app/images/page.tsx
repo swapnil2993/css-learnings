@@ -73,6 +73,21 @@ const ImageTag = () => {
               individually to demonstrate lazy loading effects in developer
               tools.
             </li>
+            <li>
+              Responsive images are images that are optimized for the user’s
+              screen size. This means that the image will be downloaded at the
+              correct size and quality for the user’s device. This will
+              significantly reduce the amount of data that is transferred to the
+              user and will speed up your page load times.
+            </li>
+            <li>
+              The &lt;picture&gt; element lets you define multiple source
+              elements that are used to define different images to use at
+              various screen sizes. The browser will then pick the first source
+              element that matches the current screen size and use that image.
+              If none of the source elements match the current screen size it
+              will use the img defined in the picture element as a fallback
+            </li>
           </ul>
         </li>
       </ul>

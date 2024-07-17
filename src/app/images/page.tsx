@@ -84,6 +84,9 @@ const ImageTag = () => {
         <li>
           <Link href="/images/gallery">Gallery</Link>
         </li>
+        <li>
+          <Link href="/images/lazy-load">Lazy Loading images</Link>
+        </li>
       </ul>
     </div>
   );

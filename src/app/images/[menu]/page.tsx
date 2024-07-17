@@ -1,11 +1,13 @@
 import Common from "./components/Common";
 import Gallery from "./components/Gallery";
+import LazyLoad from "./components/LazyLoad";
 
 import "./page.css";
 
 const componentMapParams = new Map<string, () => JSX.Element>([
   ["common", Common],
   ["gallery", Gallery],
+  ["lazy-load", LazyLoad],
 ]);
 
 const FallbackComponent = () => <div>Component not found</div>;

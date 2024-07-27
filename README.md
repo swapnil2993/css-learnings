@@ -8,8 +8,9 @@
   - [] - Forms Elements
   - [] - Header
   - [] - Footer
-  - [] - Accordion with group
+  - [x] - Accordion with group
   - [] - Thumbnail
+  - [x] - Recursive Tree Component [File System]
 - [] - Images
   - [x] - Filters in images
   - [x] - Images with outline inset
@@ -26,6 +27,9 @@
 - Grid
   - [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
   - [Center a div](https://www.sitepoint.com/css-grid-center-element/)
+  - [Layout Breakouts](https://ryanmulligan.dev/blog/layout-breakouts/)
+  - [FullBleed](https://www.joshwcomeau.com/css/full-bleed/)
+  - [Minimal Snippets for modern CSS layouts](https://smolcss.dev/)
 - Images
   - [Page Load Improve](https://blog.webdevsimplified.com/2023-05/responsive-images/)
   - [Lazy loading Images](https://blog.webdevsimplified.com/2023-05/lazy-load-images/)
